@@ -17,18 +17,18 @@
 # along with GNU Radio; see the file COPYING.  If not, write to
 # the Free Software Foundation, Inc., 51 Franklin Street,
 # Boston, MA 02110-1301, USA.
-
 install(FILES
     tujasdr_agc_cc.block.yml
     tujasdr_alsa_sink.block.yml
     tujasdr_alsa_source.block.yml
     tujasdr_complex_to_mag_squared_log_vcb.block.yml
     tujasdr_fast_sine_source_c.block.yml
-    tujasdr_fft_filter_ccc.block.yml
     tujasdr_mono_sink.block.yml
     tujasdr_mono_source.block.yml
     tujasdr_opus_encoder_f.block.yml
     tujasdr_single_pole_low_pass_ff.block.yml
     tujasdr_sum_real_imag_cc.block.yml
-    tujasdr_tagged_fd_sink.block.yml DESTINATION share/gnuradio/grc/blocks
+    tujasdr_tagged_fd_sink.block.yml
+    tujasdr_rotator_cc.block.yml
+    tujasdr_freq_xlating_fft_filter.block.yml DESTINATION share/gnuradio/grc/blocks
 )

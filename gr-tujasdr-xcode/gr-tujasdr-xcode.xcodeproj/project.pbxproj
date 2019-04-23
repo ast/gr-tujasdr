@@ -8,6 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		B1ADC96A2267399D00749190 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1ADC9692267399D00749190 /* main.cpp */; };
+		B1C1489F2267709E0048E22B /* qa_tujasdr.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C1487E2267709E0048E22B /* qa_tujasdr.cc */; };
+		B1C148A02267709E0048E22B /* opus_encoder_f_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148802267709E0048E22B /* opus_encoder_f_impl.cc */; };
+		B1C148A12267709E0048E22B /* mono_sink_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148812267709E0048E22B /* mono_sink_impl.cc */; };
+		B1C148A22267709E0048E22B /* alsa_sink_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148832267709E0048E22B /* alsa_sink_impl.cc */; };
+		B1C148A32267709E0048E22B /* fast_sine_osc.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148842267709E0048E22B /* fast_sine_osc.cc */; };
+		B1C148A42267709E0048E22B /* agc_cc_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148862267709E0048E22B /* agc_cc_impl.cc */; };
+		B1C148A52267709E0048E22B /* alsa_source_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148872267709E0048E22B /* alsa_source_impl.cc */; };
+		B1C148A62267709E0048E22B /* complex_to_mag_squared_log_vcb_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148882267709E0048E22B /* complex_to_mag_squared_log_vcb_impl.cc */; };
+		B1C148A72267709E0048E22B /* fast_sine_source_c_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148892267709E0048E22B /* fast_sine_source_c_impl.cc */; };
+		B1C148A82267709E0048E22B /* test_tujasdr.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C1488A2267709E0048E22B /* test_tujasdr.cc */; };
+		B1C148A92267709E0048E22B /* single_pole_low_pass_ff_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C1488B2267709E0048E22B /* single_pole_low_pass_ff_impl.cc */; };
+		B1C148AA2267709E0048E22B /* mono_source_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C1488C2267709E0048E22B /* mono_source_impl.cc */; };
+		B1C148AB2267709E0048E22B /* single_pole_low_pass.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C1488F2267709E0048E22B /* single_pole_low_pass.cc */; };
+		B1C148AC2267709E0048E22B /* tagged_fd_sink_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148912267709E0048E22B /* tagged_fd_sink_impl.cc */; };
+		B1C148AD2267709E0048E22B /* fast_gaussian.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148922267709E0048E22B /* fast_gaussian.cc */; };
+		B1C148AE2267709E0048E22B /* sum_real_imag_cc_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1C148982267709E0048E22B /* sum_real_imag_cc_impl.cc */; };
+		B1C148B02267709E0048E22B /* alsa.c in Sources */ = {isa = PBXBuildFile; fileRef = B1C1489E2267709E0048E22B /* alsa.c */; };
+		B1E784282268957A00789723 /* rotator_cc_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1E784272268957900789723 /* rotator_cc_impl.cc */; };
+		B1E7842D22689E8700789723 /* freq_xlating_fft_filter_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = B1E7842B22689E8700789723 /* freq_xlating_fft_filter_impl.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +44,61 @@
 /* Begin PBXFileReference section */
 		B1ADC9662267399D00749190 /* gr-tujasdr-xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "gr-tujasdr-xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1ADC9692267399D00749190 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B1C1487D2267709E0048E22B /* qa_tujasdr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qa_tujasdr.h; sourceTree = "<group>"; };
+		B1C1487E2267709E0048E22B /* qa_tujasdr.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qa_tujasdr.cc; sourceTree = "<group>"; };
+		B1C1487F2267709E0048E22B /* mono_source_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mono_source_impl.h; sourceTree = "<group>"; };
+		B1C148802267709E0048E22B /* opus_encoder_f_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = opus_encoder_f_impl.cc; sourceTree = "<group>"; };
+		B1C148812267709E0048E22B /* mono_sink_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mono_sink_impl.cc; sourceTree = "<group>"; };
+		B1C148822267709E0048E22B /* agc_cc_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agc_cc_impl.h; sourceTree = "<group>"; };
+		B1C148832267709E0048E22B /* alsa_sink_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alsa_sink_impl.cc; sourceTree = "<group>"; };
+		B1C148842267709E0048E22B /* fast_sine_osc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fast_sine_osc.cc; sourceTree = "<group>"; };
+		B1C148852267709E0048E22B /* single_pole_low_pass_ff_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = single_pole_low_pass_ff_impl.h; sourceTree = "<group>"; };
+		B1C148862267709E0048E22B /* agc_cc_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = agc_cc_impl.cc; sourceTree = "<group>"; };
+		B1C148872267709E0048E22B /* alsa_source_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alsa_source_impl.cc; sourceTree = "<group>"; };
+		B1C148882267709E0048E22B /* complex_to_mag_squared_log_vcb_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = complex_to_mag_squared_log_vcb_impl.cc; sourceTree = "<group>"; };
+		B1C148892267709E0048E22B /* fast_sine_source_c_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fast_sine_source_c_impl.cc; sourceTree = "<group>"; };
+		B1C1488A2267709E0048E22B /* test_tujasdr.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_tujasdr.cc; sourceTree = "<group>"; };
+		B1C1488B2267709E0048E22B /* single_pole_low_pass_ff_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = single_pole_low_pass_ff_impl.cc; sourceTree = "<group>"; };
+		B1C1488C2267709E0048E22B /* mono_source_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mono_source_impl.cc; sourceTree = "<group>"; };
+		B1C1488D2267709E0048E22B /* alsa_sink_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alsa_sink_impl.h; sourceTree = "<group>"; };
+		B1C1488E2267709E0048E22B /* alsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alsa.h; sourceTree = "<group>"; };
+		B1C1488F2267709E0048E22B /* single_pole_low_pass.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = single_pole_low_pass.cc; sourceTree = "<group>"; };
+		B1C148902267709E0048E22B /* complex_to_mag_squared_log_vcb_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = complex_to_mag_squared_log_vcb_impl.h; sourceTree = "<group>"; };
+		B1C148912267709E0048E22B /* tagged_fd_sink_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tagged_fd_sink_impl.cc; sourceTree = "<group>"; };
+		B1C148922267709E0048E22B /* fast_gaussian.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fast_gaussian.cc; sourceTree = "<group>"; };
+		B1C148932267709E0048E22B /* tagged_fd_sink_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tagged_fd_sink_impl.h; sourceTree = "<group>"; };
+		B1C148942267709E0048E22B /* fast_sine_source_c_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fast_sine_source_c_impl.h; sourceTree = "<group>"; };
+		B1C148952267709E0048E22B /* alsa_source_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alsa_source_impl.h; sourceTree = "<group>"; };
+		B1C148962267709E0048E22B /* tujavolk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tujavolk.h; sourceTree = "<group>"; };
+		B1C148972267709E0048E22B /* opus_encoder_f_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_encoder_f_impl.h; sourceTree = "<group>"; };
+		B1C148982267709E0048E22B /* sum_real_imag_cc_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sum_real_imag_cc_impl.cc; sourceTree = "<group>"; };
+		B1C1489A2267709E0048E22B /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		B1C1489B2267709E0048E22B /* sum_real_imag_cc_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sum_real_imag_cc_impl.h; sourceTree = "<group>"; };
+		B1C1489D2267709E0048E22B /* mono_sink_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mono_sink_impl.h; sourceTree = "<group>"; };
+		B1C1489E2267709E0048E22B /* alsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = alsa.c; sourceTree = "<group>"; };
+		B1C148B3226770C10048E22B /* fast_sine_osc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fast_sine_osc.h; sourceTree = "<group>"; };
+		B1C148B4226770C10048E22B /* single_pole_low_pass_ff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = single_pole_low_pass_ff.h; sourceTree = "<group>"; };
+		B1C148B5226770C10048E22B /* complex_to_mag_squared_log_vcb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = complex_to_mag_squared_log_vcb.h; sourceTree = "<group>"; };
+		B1C148B6226770C10048E22B /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		B1C148B7226770C10048E22B /* tagged_fd_sink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tagged_fd_sink.h; sourceTree = "<group>"; };
+		B1C148B8226770C10048E22B /* opus_encoder_f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_encoder_f.h; sourceTree = "<group>"; };
+		B1C148B9226770C10048E22B /* alsa_source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alsa_source.h; sourceTree = "<group>"; };
+		B1C148BB226770C10048E22B /* fast_sine_source_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fast_sine_source_c.h; sourceTree = "<group>"; };
+		B1C148BC226770C10048E22B /* single_pole_low_pass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = single_pole_low_pass.h; sourceTree = "<group>"; };
+		B1C148BD226770C10048E22B /* fast_gaussian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fast_gaussian.h; sourceTree = "<group>"; };
+		B1C148BE226770C10048E22B /* sum_real_imag_cc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sum_real_imag_cc.h; sourceTree = "<group>"; };
+		B1C148BF226770C10048E22B /* alsa_sink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alsa_sink.h; sourceTree = "<group>"; };
+		B1C148C0226770C10048E22B /* mono_sink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mono_sink.h; sourceTree = "<group>"; };
+		B1C148C1226770C10048E22B /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		B1C148C2226770C10048E22B /* agc_cc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agc_cc.h; sourceTree = "<group>"; };
+		B1C148C3226770C10048E22B /* mono_source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mono_source.h; sourceTree = "<group>"; };
+		B1E784262268957900789723 /* rotator_cc_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotator_cc_impl.h; sourceTree = "<group>"; };
+		B1E784272268957900789723 /* rotator_cc_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rotator_cc_impl.cc; sourceTree = "<group>"; };
+		B1E784292268959200789723 /* rotator_cc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotator_cc.h; sourceTree = "<group>"; };
+		B1E7842A226895E500789723 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		B1E7842B22689E8700789723 /* freq_xlating_fft_filter_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = freq_xlating_fft_filter_impl.cc; sourceTree = "<group>"; };
+		B1E7842C22689E8700789723 /* freq_xlating_fft_filter_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freq_xlating_fft_filter_impl.h; sourceTree = "<group>"; };
+		B1E7842E22689E9700789723 /* freq_xlating_fft_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freq_xlating_fft_filter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +131,90 @@
 		B1ADC9682267399D00749190 /* gr-tujasdr-xcode */ = {
 			isa = PBXGroup;
 			children = (
+				B1E7842A226895E500789723 /* README.md */,
+				B1C148B1226770C10048E22B /* include */,
+				B1C1487C2267709E0048E22B /* lib */,
 				B1ADC9692267399D00749190 /* main.cpp */,
 			);
 			path = "gr-tujasdr-xcode";
+			sourceTree = "<group>";
+		};
+		B1C1487C2267709E0048E22B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B1C1489A2267709E0048E22B /* CMakeLists.txt */,
+				B1C148962267709E0048E22B /* tujavolk.h */,
+				B1E784262268957900789723 /* rotator_cc_impl.h */,
+				B1E784272268957900789723 /* rotator_cc_impl.cc */,
+				B1E7842C22689E8700789723 /* freq_xlating_fft_filter_impl.h */,
+				B1E7842B22689E8700789723 /* freq_xlating_fft_filter_impl.cc */,
+				B1C1489E2267709E0048E22B /* alsa.c */,
+				B1C1488D2267709E0048E22B /* alsa_sink_impl.h */,
+				B1C148832267709E0048E22B /* alsa_sink_impl.cc */,
+				B1C1488E2267709E0048E22B /* alsa.h */,
+				B1C148952267709E0048E22B /* alsa_source_impl.h */,
+				B1C148872267709E0048E22B /* alsa_source_impl.cc */,
+				B1C1489D2267709E0048E22B /* mono_sink_impl.h */,
+				B1C148812267709E0048E22B /* mono_sink_impl.cc */,
+				B1C1488C2267709E0048E22B /* mono_source_impl.cc */,
+				B1C1487F2267709E0048E22B /* mono_source_impl.h */,
+				B1C148972267709E0048E22B /* opus_encoder_f_impl.h */,
+				B1C148802267709E0048E22B /* opus_encoder_f_impl.cc */,
+				B1C148822267709E0048E22B /* agc_cc_impl.h */,
+				B1C148862267709E0048E22B /* agc_cc_impl.cc */,
+				B1C148922267709E0048E22B /* fast_gaussian.cc */,
+				B1C148842267709E0048E22B /* fast_sine_osc.cc */,
+				B1C1489B2267709E0048E22B /* sum_real_imag_cc_impl.h */,
+				B1C148982267709E0048E22B /* sum_real_imag_cc_impl.cc */,
+				B1C148852267709E0048E22B /* single_pole_low_pass_ff_impl.h */,
+				B1C1488B2267709E0048E22B /* single_pole_low_pass_ff_impl.cc */,
+				B1C148902267709E0048E22B /* complex_to_mag_squared_log_vcb_impl.h */,
+				B1C148882267709E0048E22B /* complex_to_mag_squared_log_vcb_impl.cc */,
+				B1C148942267709E0048E22B /* fast_sine_source_c_impl.h */,
+				B1C148892267709E0048E22B /* fast_sine_source_c_impl.cc */,
+				B1C1488A2267709E0048E22B /* test_tujasdr.cc */,
+				B1C1488F2267709E0048E22B /* single_pole_low_pass.cc */,
+				B1C148932267709E0048E22B /* tagged_fd_sink_impl.h */,
+				B1C148912267709E0048E22B /* tagged_fd_sink_impl.cc */,
+				B1C1487D2267709E0048E22B /* qa_tujasdr.h */,
+				B1C1487E2267709E0048E22B /* qa_tujasdr.cc */,
+			);
+			name = lib;
+			path = ../../lib;
+			sourceTree = "<group>";
+		};
+		B1C148B1226770C10048E22B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B1C148B2226770C10048E22B /* tujasdr */,
+			);
+			name = include;
+			path = ../../include;
+			sourceTree = "<group>";
+		};
+		B1C148B2226770C10048E22B /* tujasdr */ = {
+			isa = PBXGroup;
+			children = (
+				B1C148C1226770C10048E22B /* CMakeLists.txt */,
+				B1C148B3226770C10048E22B /* fast_sine_osc.h */,
+				B1E7842E22689E9700789723 /* freq_xlating_fft_filter.h */,
+				B1C148B4226770C10048E22B /* single_pole_low_pass_ff.h */,
+				B1C148B5226770C10048E22B /* complex_to_mag_squared_log_vcb.h */,
+				B1C148B6226770C10048E22B /* api.h */,
+				B1C148B7226770C10048E22B /* tagged_fd_sink.h */,
+				B1C148B8226770C10048E22B /* opus_encoder_f.h */,
+				B1C148B9226770C10048E22B /* alsa_source.h */,
+				B1C148BB226770C10048E22B /* fast_sine_source_c.h */,
+				B1C148BC226770C10048E22B /* single_pole_low_pass.h */,
+				B1C148BD226770C10048E22B /* fast_gaussian.h */,
+				B1C148BE226770C10048E22B /* sum_real_imag_cc.h */,
+				B1C148BF226770C10048E22B /* alsa_sink.h */,
+				B1C148C0226770C10048E22B /* mono_sink.h */,
+				B1E784292268959200789723 /* rotator_cc.h */,
+				B1C148C2226770C10048E22B /* agc_cc.h */,
+				B1C148C3226770C10048E22B /* mono_source.h */,
+			);
+			path = tujasdr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +273,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E7842D22689E8700789723 /* freq_xlating_fft_filter_impl.cc in Sources */,
+				B1C148B02267709E0048E22B /* alsa.c in Sources */,
+				B1C148A32267709E0048E22B /* fast_sine_osc.cc in Sources */,
+				B1C148A52267709E0048E22B /* alsa_source_impl.cc in Sources */,
 				B1ADC96A2267399D00749190 /* main.cpp in Sources */,
+				B1C148A22267709E0048E22B /* alsa_sink_impl.cc in Sources */,
+				B1C148AC2267709E0048E22B /* tagged_fd_sink_impl.cc in Sources */,
+				B1C1489F2267709E0048E22B /* qa_tujasdr.cc in Sources */,
+				B1C148A42267709E0048E22B /* agc_cc_impl.cc in Sources */,
+				B1C148A82267709E0048E22B /* test_tujasdr.cc in Sources */,
+				B1C148A92267709E0048E22B /* single_pole_low_pass_ff_impl.cc in Sources */,
+				B1C148A02267709E0048E22B /* opus_encoder_f_impl.cc in Sources */,
+				B1E784282268957A00789723 /* rotator_cc_impl.cc in Sources */,
+				B1C148A12267709E0048E22B /* mono_sink_impl.cc in Sources */,
+				B1C148A62267709E0048E22B /* complex_to_mag_squared_log_vcb_impl.cc in Sources */,
+				B1C148AD2267709E0048E22B /* fast_gaussian.cc in Sources */,
+				B1C148A72267709E0048E22B /* fast_sine_source_c_impl.cc in Sources */,
+				B1C148AE2267709E0048E22B /* sum_real_imag_cc_impl.cc in Sources */,
+				B1C148AA2267709E0048E22B /* mono_source_impl.cc in Sources */,
+				B1C148AB2267709E0048E22B /* single_pole_low_pass.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +414,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				OTHER_CFLAGS = (
+					"-I/usr/local/include",
+					"-I$(PROJECT_DIR)/../include",
 					"-I/mnt/build/home/albin/src/rbpi3sdk/sysroot/usr/local/include/",
 					"-I/mnt/build/home/albin/src/rbpi3sdk/sysroot/usr/include/",
-					"-I$(PROJECT_DIR)/../include",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -253,10 +429,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				OTHER_CFLAGS = (
+					"-I/usr/local/include",
+					"-I$(PROJECT_DIR)/../include",
 					"-I/mnt/build/home/albin/src/rbpi3sdk/sysroot/usr/local/include/",
 					"-I/mnt/build/home/albin/src/rbpi3sdk/sysroot/usr/include/",
-					"-I$(PROJECT_DIR)/../include",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -63,7 +63,7 @@ volk_32f_s32f_convert_32i_neon(int32_t* outputVector,
     float32x4_t input_vec;
     int32x4_t ouput_vec;
     
-    float min_val = -2147483647;
+    float min_val = -2147483647; // TODO, off by one
     float max_val = 2147483647;
     float r;
     

@@ -22,7 +22,6 @@
 # Setup library
 ########################################################################
 include(GrPlatform) #define LIB_SUFFIX
-
 list(APPEND tujasdr_sources
     alsa.c
     single_pole_low_pass.cc
@@ -32,13 +31,14 @@ list(APPEND tujasdr_sources
     alsa_source_impl.cc
     complex_to_mag_squared_log_vcb_impl.cc
     fast_sine_source_c_impl.cc
-    fft_filter_ccc_impl.cc
     mono_sink_impl.cc
     mono_source_impl.cc
     opus_encoder_f_impl.cc
     single_pole_low_pass_ff_impl.cc
     sum_real_imag_cc_impl.cc
     tagged_fd_sink_impl.cc
+    rotator_cc_impl.cc
+    freq_xlating_fft_filter_impl.cc
 )
 
 set(tujasdr_sources "${tujasdr_sources}" PARENT_SCOPE)

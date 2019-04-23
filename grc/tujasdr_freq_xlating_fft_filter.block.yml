@@ -1,10 +1,10 @@
-id: tujasdr_fft_filter_ccc
-label: fft_filter_ccc
+id: tujasdr_freq_xlating_fft_filter
+label: freq_xlating_fft_filter
 category: '[tujasdr]'
 
 templates:
   imports: import tujasdr
-  make: tujasdr.fft_filter_ccc(${p})
+  make: tujasdr.freq_xlating_fft_filter(${decimation}, ${&taps}, ${center_freq}, ${sampling_freq})
 
 <!-- Make one 'parameters' list entry for every Parameter you want settable from the GUI.
      Sub-entries of dictionary:

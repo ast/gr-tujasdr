@@ -29,6 +29,7 @@
 namespace gr {
     namespace tujasdr {
         
+        // TODO: inline this
         float
         fast_magnitude(const gr_complex& c) {
             const float alpha = 0.947543636291;
@@ -44,6 +45,7 @@ namespace gr {
             }
         }
         
+        // TODO: inline this
         float
         magnitude_squared(const gr_complex& c) {
             // a complex number multiplied with its conjugate is always real

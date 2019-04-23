@@ -55,19 +55,10 @@ namespace gr {
                 
                 // TODO: maybe turn this into a template class?
                 inline gr_complex next() {
+                    gr_complex c = gr_complex(d_u, d_v);
                     update();
-                    return gr_complex(d_u, d_v);
+                    return c;
                 }
-                
-                /*inline float next_i() {
-                    update();
-                    return d_u;
-                }
-                
-                inline float next_q() {
-                    update();
-                    return d_v;
-                }*/
             };
         }
     } // namespace tujasdr

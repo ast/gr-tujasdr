@@ -28,11 +28,12 @@ install(FILES
     alsa_source.h
     complex_to_mag_squared_log_vcb.h
     fast_sine_source_c.h
-    fft_filter_ccc.h
     mono_sink.h
     mono_source.h
     opus_encoder_f.h
     single_pole_low_pass_ff.h
     sum_real_imag_cc.h
-    tagged_fd_sink.h DESTINATION include/tujasdr
+    tagged_fd_sink.h
+    rotator_cc.h
+    freq_xlating_fft_filter.h DESTINATION include/tujasdr
 )
